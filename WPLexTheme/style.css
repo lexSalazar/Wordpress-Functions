@@ -1,0 +1,52 @@
+/*
+Theme Name: WPLexTheme
+Theme URI: 
+Author: 
+Author URI: 
+Description: WPLexTheme is a blank theme template for customize wordpress development created in the year 2017. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+.default_sitecontent {
+	min-height:500px;
+}
+
+.header-default {
+	background-color: #000;
+	min-height: 50px;
+	width: 100%;
+}
+
+.default_title {
+	font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    margin: 50px;
+    position: relative;
+}
+
+.default_title:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #333;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.err_page {
+	padding: 70px 0;
+}
